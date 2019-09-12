@@ -1,0 +1,13 @@
+<switcher_setup>
+    <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+        <transition name="MIX">
+            <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+        </transition>
+        <transition name="WIPE">
+            <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+        </transition>
+        <transition name="EFFECT">
+            <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+        </transition>
+    </transitions>
+</switcher_setup>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/style/reset.css">
+        <link rel="stylesheet" href="/static/style/plugin.css">
+        <title>container</title>
+    </head>
+    <body>
+        <div>
+            <iframe name="miframe" id="miframe" src="index.html?origin=http://127.0.0.1:3000" frameborder="0" align="left" width="1100" height="800"></iframe>
+        </div>
+        <div class="btns-wrap">
+            <div class="reset btn btn-default">复写(Cover)</div>
+        </div>
+        <div class="tip"></div>
+    </body>
+    <script src="/static/js/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            if (window.addEventListener) {
+                window.addEventListener('message', showMosMessage, false);
+            } else if (window.attachEvent) {
+                window.attachEvent('message', showMosMessage, false);
+            }
+        });
+
+        function showMosMessage(event) {
+            var message = event.data;
+            alert('Container received message from H5 : \r\n' + message);
+            console.log(message);
+        }
+
+        $('.reset').click(function () {
+            //recoverData = '<mos><ncsItem><item><itemID>1</itemID><objID>PACKAGE;RS</objID><mosID>MOSART.CCTV.MOS</mosID><mosPlugInID>ENPSHTMLHost</mosPlugInID><mosItemBrowserProgID>ENPSHTMLHost</mosItemBrowserProgID><mosItemEditorProgID>ENPSHTMLHost</mosItemEditorProgID><mosAbstract>DEMO_PACKAGE_RS_MIX_0_Auto_00:00</mosAbstract><mosExternalMetadata><mosScope>PLAYLIST</mosScope><mosSchema>http://www.mosartmedialab.no/schema/mositem.dtd</mosSchema><mosPayload><mosarttemplate><type name="PACKAGE" category=""><variants value="RS" fieldtype="LIST"><variant name="RS"><transitions value="EFFECT" enable="false"><transition name="EFFECT"><field name="effectname" value="3" fieldtype="LIST" keylist="EFFECT" /></transition></transitions><fields><field name="left" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="right" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="xpoint" default="-" value="19" fieldtype="LIST" keylist="mixerinputs" /><field name="000" default="-" value="SDI IN2" fieldtype="LIST" keylist="mixerinputs" /><field name="clip_hirespath" default="33333333" value="55555555" fieldtype="TEXT" keylist="" /><field name="ggg" default="" value="6666666" fieldtype="TEXT" keylist="" /><field name="audio_file" default="" value="777777" fieldtype="TEXT" keylist="" /><field name="preview_value" default="-" value="-" fieldtype="TEXT" keylist="" /><field name="program_value" default="-" value="-" fieldtype="TEXT" keylist="" /><field name="output_preview" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="output_program" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="input_preview" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="input_program" default="-" value="-" fieldtype="LIST" keylist="mixerinputs" /><field name="take" value="MANUAL" /><field name="tc_in" value="11:11" /><field name="tc_out" value="12:12" /></fields></variant></variants></type></mosarttemplate></mosPayload></mosExternalMetadata></item></ncsItem></mos>'
+            recoverData = '<mos><ncsItem><item><mosItemReplace><itemID>1</itemID><objID>CAM;5</objID><mosID>MOSART.CCTV.MOS</mosID><mosPlugInID>ENPSHTMLHost</mosPlugInID><mosItemBrowserProgID>ENPSHTMLHost</mosItemBrowserProgID><mosItemEditorProgID>ENPSHTMLHost</mosItemEditorProgID><mosAbstract>DEMO_CAM_5_EFFECT</mosAbstract><mosExternalMetadata><mosScope>PLAYLIST</mosScope><mosSchema>http://www.mosartmedialab.no/schema/mositem.dtd</mosSchema><mosPayload><mosarttemplate><type name="CAM" category=""><variants value="1" fieldtype="LIST"><variant name="1"><transitions value="EFFECT" enable="false"><transition name="EFFECT"><field name="effectname" value="2" fieldtype="LIST" keylist="effects" /></transition></transitions><fields /></variant></variants></type></mosarttemplate></mosPayload></mosExternalMetadata></mosItemReplace></item></ncsItem></mos>';
+            iframe = document.getElementById('miframe');
+            iframe.contentWindow.postMessage(recoverData, 'http://127.0.0.1:3000');
+        });
+    </script>
+</html>

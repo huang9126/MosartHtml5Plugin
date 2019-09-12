@@ -1,0 +1,83 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    margin-top: 1vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #60656a;
+    border: 1px solid #1e2226;
+}
+.logo-wrap {
+    float: left;
+}
+.logo {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    vertical-align: middle;
+}
+.title {
+    vertical-align: middle;
+    font-size: 24px;
+}
+main {
+    margin-top: 50px;
+    padding: 0 50px;
+    border-bottom: 1px solid #ccc;
+}
+main ul li {
+    padding: 15px 0;
+}
+main ul li div {
+    float: left;
+    width: 50%;
+}
+main ul li div input {
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    background-color: #595C5F;
+    border: 1px solid #1e2226;
+    height: 25px;
+    padding-left: 5px;
+}
+.save-wrap {
+    float: right;
+    padding: 20px 0;
+    text-align: left;
+    width: 50%;
+}
+.save-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #1e2226;
+    border-radius: 5px;
+}
+footer {
+    padding: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.status-change-wrap div {
+    float: left;
+    width: 50%;
+}
+.status-btn {
+    margin-top: 30px;
+    width: 50%;
+    float: right;
+}
+.status-btn span {
+    padding: 5px 10px;
+    border: 1px solid #1e2226;
+    border-radius: 5px;
+}

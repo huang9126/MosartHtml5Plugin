@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>H5-Plugin</title>
+		<link rel="stylesheet" href="/static/style/reset.css">
+		<link rel="stylesheet" href="/static/style/plugin.css">
+	</head>
+	<body>
+		<div id="app">
+			<header class="clear">
+				<div class="logo-wrap">
+					<img class="logo" src="/static/images/logo.png" alt="">
+					<span class="title">MOSART文稿系统插件</span>
+				</div>
+				<div class="drap-wrap">
+					<div class="ver"></div>
+					<div class="lev"></div>
+				</div>
+				<div id="drap-content" draggable="true"></div>
+			</header>
+			<main>
+				<div class="template-name-wrap">
+					<select name="" id="templateName" class="type-selected">
+					</select>
+				</div>
+				<div class="container clear">
+					<div class="left-wrap">
+						<ul>
+						</ul>
+					</div>
+					<div class="center-wrap">
+						<ul>
+						</ul>
+					</div>
+					<div class="right-wrap">
+						<div class="channel-name"></div>
+						<div class="des-wrap">
+							<span class="des-tops">Description</span>
+							<div class="des-content"></div>
+						</div>
+						<div class="nav-tap-wrap">
+							<div class="des-wrap transition-div">
+								<span class="des-tops">Transition</span>
+								<section class="transition-main">
+									<select name="" id="transition-select" class="type-selected">
+									</select>
+								</section>
+							</div>
+
+							<div class="des-wrap" id="time-section" style="display: none">
+								<span class="des-tops">Timing</span>
+								<section>
+									<table style="border: 0px solid">
+									<tr class="timing-sub">
+										<td><input name="timing" type="radio" id="radio-in" value="AUTO" checked="checked"/></td>
+										<td>Auto</td>
+										<td style="padding-left: 10px">In</td>
+										<td style="padding-left: 10px">
+											<input name="time_in" class="time_date" type="text" id="tc_in" value="00:00" placeholder="00:00"/></td>
+									</tr>
+									<tr class="timing-sub">
+										<td><input name="timing" type="radio" id="radio-out" value="MANUAL" /></td>
+										<td>Manual</td>
+										<td style="padding-left: 10px">Out</td>
+										<td style="padding-left: 10px">
+											<input name="time_in" class="time_date" type="text" id="tc_out" value="00:00" placeholder="00:00"/></td>
+									</tr>
+									</table>
+								</section>
+							</div>
+							<div class="other-section-main" ></div>
+						</div>
+					</div>
+				</div>
+				<div class="btns-wrap">
+					<div class="preview btn btn-default">预览(Preview)</div>
+					<div class="save btn btn-default">保存(Save)</div>
+					<div class="cancel btn btn-default">关闭(Close)</div>
+				</div>
+			</main>
+			<div class="line"><pre><div></div></pre></div>
+			<footer>
+				<div class="pre-mos" id="pre-mos-data" style="overflow-y: scroll;overflow-x: hidden;">
+					
+				</div>
+				<div class="copy-wrap">
+					<div class="copy-btn btn btn-default" id="pre-mos-data-clear">清空(Clear)</div>
+					<div class="copy-btn btn btn-default" data-clipboard-target="#pre-mos-data">拷贝至剪切板(Copy)</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/xml2json.js"></script>
+	<script src="/static/js/clipboard.min.js"></script>
+	<script src="/static/js/plugin.js"></script>
+</html>

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<avconfig origin="File" connectionString="c:\channeltemplates\channeltemplates.xml" provider="REXL">
+  <channeltemplates revision="3">
+    <channels name="DEMO" created="08/01/2015 14:29:56" shared="False" default="True">
+      <channel name="CAM cam1" type="0" templatetype="1" description="CAM cam1" ID="f47e37dd-cdaa-4641-8965-7b71991fd961" created="08/01/2015 14:30:08" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="true" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-09-14T09:24:53,154Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN1" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC2" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC2||0" />
+            <audio_channel name="N/A" s3000_name="MIC1" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC1||0" />
+            <audio_channel name="N/A" s3000_name="MIC4" level="-9" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC4||-9" initiallevel="-9" />
+            <audio_channel name="N/A" s3000_name="MIC3" level="-22" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="3" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC3||-22" initiallevel="-22" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="V2" type="220" templatetype="V2" description="V2" ID="702d11b1-b27e-4687-9d4c-bbbe9dac0998" created="10/22/2018 3:33:50 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-10-22T09:43:44,063Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="BIRTV 2018" preset_program="2" fadetime_program="-1" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="V-1" type="220" templatetype="V-1" description="V-1" ID="4e63edd5-4c9a-47f5-91e8-428725d5e541" created="10/22/2018 3:06:57 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-10-22T09:43:31,981Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="BIRTV 2018" preset_program="1" fadetime_program="-1" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="V3" type="220" templatetype="V3" description="V3" ID="718af7ea-1491-4d03-a36c-8409cdac9af8" created="10/22/2018 3:36:56 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-10-22T09:43:56,485Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="BIRTV 2018" preset_program="3" fadetime_program="-1" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="V4" type="220" templatetype="V4" description="V4" ID="393fb65c-30d9-403f-9314-728f07d808b0" created="10/22/2018 3:38:08 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-10-22T09:44:09,061Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="BIRTV 2018" preset_program="4" fadetime_program="-1" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="CAMAAAAA" type="0" templatetype="I" description="sdasdasd" ID="170994ad-7c07-44a0-8c9e-f66ed4cbe9e5" created="9/25/2018 5:23:35 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-25T09:27:05,832Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN1" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+      </channel>
+      <channel name="S-1-T4" type="220" templatetype="S-1-T4" description="S-1-T4" ID="c5f1e141-05b5-41b9-90a0-71916a23a30c" created="9/14/2018 12:15:22 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-14T04:15:49,896Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="-1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="13" preset_program="4" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="S-1-T3" type="220" templatetype="S-1-T3" description="S-1-T3" ID="d96ff70d-23b7-43c4-ae12-6642ed160de2" created="9/14/2018 12:14:15 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-14T04:14:52,768Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="-1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="13" preset_program="3" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="S-6-T1" type="220" templatetype="S-6-T1" description="S-6-T1" ID="a07f94eb-245d-4f56-8a7e-87e1d2010356" created="9/14/2018 11:59:08 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-14T04:00:02,565Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="6" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="1" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="S-1-T1" type="220" templatetype="S-1-T1" description="S-1-T1" ID="e48d1962-625e-4bfd-b12a-dc20ff3fd8c8" created="9/14/2018 12:00:24 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-12-14T11:17:26,301Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="-1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="13" preset_program="1" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="S-1-T2" type="220" templatetype="S-1-T2" description="S-1-T2" ID="dcdaa2cc-13d2-4758-8841-8c8f001616b6" created="9/14/2018 12:01:14 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-14T04:13:04,965Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="13" preset_program="2" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="S-6-T2" type="220" templatetype="S-6-T2" description="S-6-T2" ID="86ef2afe-8b0a-4a20-b277-40ac7b3a8231" created="9/14/2018 12:01:45 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-09-14T04:02:12,887Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="6" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="2" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="RS" type="1" templatetype="RS" description="RS" ID="8659c229-d508-4409-9960-3a83ffeb2fce" created="7/31/2018 2:22:17 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="true" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2019-01-21T08:47:54,710Z">
+        <server_setup>
+          <setup serverchannel="a" clip_mark_in="0" clip_hirespath="33333333" clip_description="" trigger_start="false" recue_clip="false" loop="false" cue_only="false">
+            <newsroom_fields>
+              <newsroom_field device="server_setup" control_attribute="clip_hirespath" newsroomfield="clip_hirespath" newsroomfieldvalue="33333333" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </server_setup>
+        <graphics_setup>
+          <setup engine="1" command="load" dataconnection="systemdefault" content_source="dataconnection" newsroom_tag="GRAPHICS" use_vcp="False" scenename="" text="" takeout_command_delay="0" is_data_base_index="False" contwithdve="False" use_takeout_command="False">
+            <newsroom_fields>
+              <newsroom_field device="graphics_setup" control_attribute="scenename" newsroomfield="ggg" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </graphics_setup>
+        <switcher_setup>
+          <keyfills>
+            <keyfill name="Key " bus="1" xpoint="none" audiolink="none" index="0" set_me_in_pp="False" crosspoint_hold="False" mixeffect="PP" key_set_delay="">
+              <newsroom_fields>
+                <newsroom_field device="keyfill" control_attribute="xpoint" newsroomfield="left" newsroomfieldvalue="none" fieldtype="LIST" keylist="mixerinputs" />
+              </newsroom_fields>
+            </keyfill>
+            <keyfill name="Key " bus="2" xpoint="none" audiolink="none" index="1" set_me_in_pp="False" crosspoint_hold="False" mixeffect="PP" key_set_delay="">
+              <newsroom_fields>
+                <newsroom_field device="keyfill" control_attribute="xpoint" newsroomfield="right" newsroomfieldvalue="none" fieldtype="LIST" keylist="mixerinputs" />
+              </newsroom_fields>
+            </keyfill>
+          </keyfills>
+          <ememrecall name="E Recall" ememnr="-1" set_me_in_pp="False" crosspoint_hold="False" description="" mixeffect="PP" ememnr_preview="" ememnr_program="" load_time="" open_vs_fader="false" />
+          <macrorecall recall_preview="" recall_program="" recall_preview_action="" recall_program_action="">
+            <newsroom_fields />
+          </macrorecall>
+          <auxilaries>
+            <auxilary name="Aux" bus="1" xpoint="none" audiolink="none" index="0" set_delay="" trans_dur="">
+              <newsroom_fields>
+                <newsroom_field device="auxilary" control_attribute="xpoint" newsroomfield="xpoint" newsroomfieldvalue="none" fieldtype="LIST" keylist="mixerinputs" />
+              </newsroom_fields>
+            </auxilary>
+            <auxilary name="Aux" bus="2" xpoint="none" audiolink="none" index="1" set_delay="" trans_dur="">
+              <newsroom_fields>
+                <newsroom_field device="auxilary" control_attribute="xpoint" newsroomfield="000" newsroomfieldvalue="none" fieldtype="LIST" keylist="mixerinputs" />
+              </newsroom_fields>
+            </auxilary>
+          </auxilaries>
+          <switcherinputchannel name="SW Input" xpoint="none" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <soundfileplayer_setup>
+          <setup level="0" filename="0" output="" audio_file="">
+            <newsroom_fields>
+              <newsroom_field device="soundfileplayer_setup" control_attribute="audio_file" newsroomfield="audio_file" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </soundfileplayer_setup>
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="name" camera_number="-1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="0" preset_program="0" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+        <gpo_setup>
+          <setups>
+            <setup gpo_preview="-" gpo_program="-" />
+          </setups>
+        </gpo_setup>
+        <light_setup>
+          <setup preview_command="" preview_value="-" program_command="" program_value="-">
+            <newsroom_fields>
+              <newsroom_field device="light_setup" control_attribute="preview_value" newsroomfield="preview_value" newsroomfieldvalue="-" fieldtype="TEXT" keylist="" />
+              <newsroom_field device="light_setup" control_attribute="program_value" newsroomfield="program_value" newsroomfieldvalue="-" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </light_setup>
+        <router_setup>
+          <setups>
+            <setup matrix="0" level="0" input_preview="-" output_preview="-" input_program="-" output_program="-" program_delay="0" salvo_preview="-" salvo_program="-" input_audiolink="" output_audiolink="">
+              <newsroom_fields>
+                <newsroom_field device="router_setup" control_attribute="output_preview" newsroomfield="output_preview" newsroomfieldvalue="-" fieldtype="TEXT" fieldlist="not defined" />
+                <newsroom_field device="router_setup" control_attribute="output_program" newsroomfield="output_program" newsroomfieldvalue="-" fieldtype="TEXT" fieldlist="not defined" />
+                <newsroom_field device="router_setup" control_attribute="input_preview" newsroomfield="input_preview" newsroomfieldvalue="-" fieldtype="TEXT" fieldlist="not defined" />
+                <newsroom_field device="router_setup" control_attribute="input_program" newsroomfield="input_program" newsroomfieldvalue="-" fieldtype="TEXT" fieldlist="not defined" />
+              </newsroom_fields>
+            </setup>
+          </setups>
+        </router_setup>
+        <audio_setup>
+          <setup recall_preview="" recall_program="">
+            <newsroom_fields />
+          </setup>
+        </audio_setup>
+      </channel>
+      <channel name="jjjj" type="1" templatetype="a" description="description" ID="508d4ba2-17ba-40d2-91b1-870a9b970612" created="1/21/2019 4:07:00 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2019-01-21T08:09:46,174Z">
+        <server_setup>
+          <setup serverchannel="a" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" recue_clip="false" loop="false" cue_only="false">
+            <newsroom_fields>
+              <newsroom_field device="server_setup" control_attribute="clip_hirespath" newsroomfield="clip_hirespath" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </server_setup>
+        <graphics_setup>
+          <setup engine="1" command="load" dataconnection="systemdefault" content_source="dataconnection" newsroom_tag="GRAPHICS" use_vcp="False" scenename="" text="" takeout_command_delay="0" is_data_base_index="False" contwithdve="False" use_takeout_command="False">
+            <newsroom_fields>
+              <newsroom_field device="graphics_setup" control_attribute="scenename" newsroomfield="scenename" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+              <newsroom_field device="graphics_setup" control_attribute="text" newsroomfield="text" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </graphics_setup>
+      </channel>
+      <channel name="5" type="0" templatetype="5" description="5" ID="e81a38b8-6382-4ecb-97f3-fa2774ae4fa2" created="7/26/2018 3:19:10 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-25T19:19:28,948Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN5" mixdelay="0" xpoint_pp="" mixeffect="ME1" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" dsk_2_on="False" dsk_2_off_delay="0" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+      </channel>
+      <channel name="T11" type="220" templatetype="T11" description="T11" ID="772abf15-ece5-46e1-a1bc-ed65116f41e9" created="7/26/2018 3:09:52 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-25T19:10:27,769Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="11" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="T9" type="220" templatetype="T9" description="T9" ID="6b3f0472-2d7f-499c-aeb9-0b7d4fcbbe5e" created="7/26/2018 3:04:00 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-25T19:04:26,886Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="9" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="T10" type="220" templatetype="T10" description="T10" ID="f901f922-2990-4ccf-951a-42fda184aaf1" created="7/26/2018 3:04:33 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-25T19:05:08,068Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="10" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="FULL" type="4" templatetype="FULL" description="FULL" ID="1f4c1273-3951-48b0-9e59-11ae859bcc57" created="7/25/2018 11:20:27 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-25T15:21:53,950Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN5" mixdelay="0" xpoint_pp="" mixeffect="ME1" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" dsk_2_on="False" dsk_2_off_delay="0" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <graphics_setup>
+          <setup engine="1" command="load" dataconnection="systemdefault" content_source="newsroom" newsroom_tag="GRAPHICS" use_vcp="False" scenename="" text="" takeout_command_delay="0" is_data_base_index="False" contwithdve="False" use_takeout_command="True">
+            <newsroom_fields>
+              <newsroom_field device="graphics_setup" control_attribute="scenename" newsroomfield="scenename" newsroomfieldvalue="" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </graphics_setup>
+      </channel>
+      <channel name="t1" type="220" templatetype="t1" description="t1" ID="24da3688-d3b0-41db-9e67-9693f0a26495" created="7/3/2018 5:38:59 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-24T09:26:21,439Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="1" fadetime_program="-1" delay_program="-1" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="T2" type="220" templatetype="T2" description="T2" ID="7bfc0d0b-b505-444b-94cb-8efc541dfe39" created="7/3/2018 5:41:35 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-03T09:42:18,051Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="2" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="T3" type="220" templatetype="T3" description="T3" ID="9e4ef32a-7f86-4aa2-b213-12381f9b5e1d" created="7/3/2018 5:42:55 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-07-24T07:41:09,042Z">
+        <roboticcameracontrol_setup>
+          <setups>
+            <setup shot_name="1" camera_number="1" page_preview="0" preset_preview="0" time_preview="0" delay_preview="0" page_program="1" preset_program="3" fadetime_program="0" delay_program="0" onair_protect="" />
+          </setups>
+        </roboticcameracontrol_setup>
+      </channel>
+      <channel name="CAM 2" type="0" templatetype="2" description="CAM 2" ID="5681b2bf-e485-4d31-9ba9-0a3c48dcb024" created="09/01/2015 14:37:09" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-09-14T09:25:11,811Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN2" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC1" level="-29" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="-29" key="MIC1||-29" />
+            <audio_channel name="N/A" s3000_name="MIC2" level="-48" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="-48" key="MIC2||-48" />
+            <audio_channel name="N/A" s3000_name="MIC3" level="0" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC3||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="CAM 3" type="0" templatetype="3" description="CAM 3" ID="ec78eb71-4026-4981-8a36-633a8e413380" created="05-06-2015 14:05:10" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-09-14T09:25:27,482Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN3" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC3" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC3||0" />
+            <audio_channel name="N/A" s3000_name="MIC4" level="-20" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC4||-20" initiallevel="-20" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="CAM 4" type="0" templatetype="4" description="CAM 4" ID="c6121248-e031-45b2-9e11-7104d7458ab3" created="05-06-2015 14:06:11" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-09-14T09:26:01,503Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN4" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC4" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC4||0" />
+            <audio_channel name="N/A" s3000_name="MIC1" level="1" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC1||1" initiallevel="1" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="CLIP" type="1" templatetype="CLIP" description="CLIP" ID="2b657405-5be9-4e11-ba95-42461f39cc35" created="09/01/2015 14:42:15" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2015-06-05T13:14:05,191Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" index="0" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="CLIP1" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="CLIP1||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="Copy of CLIP" type="1" templatetype="Default" description="CLIP" ID="0b73047e-fbad-4dd8-ab41-45474ac471d8" created="2/22/2018 2:07:35 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" isstorydur="False" autotakein="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" index="0" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="CLIP1" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="CLIP1||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="VO" type="2" templatetype="VO" description="VO" ID="ac0ed7c0-f852-4202-b47a-79b372244841" created="09/01/2015 14:43:15" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC 1" level="0" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC 1||0" />
+            <audio_channel name="N/A" s3000_name="MIC 2" level="0" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC 2||0" />
+            <audio_channel name="N/A" s3000_name="CLIP1" level="-12" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="CLIP1||-12" initiallevel="-12" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="Copy of VO" type="2" templatetype="Default" description="VO" ID="ff0333a0-5914-4374-abc4-ea4408ea23fc" created="2/22/2018 2:07:55 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" isstorydur="False" autotakein="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC 1" level="0" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC 1||0" />
+            <audio_channel name="N/A" s3000_name="MIC 2" level="0" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC 2||0" />
+            <audio_channel name="N/A" s3000_name="CLIP1" level="-12" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="CLIP1||-12" initiallevel="-12" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="EXT 1" type="3" templatetype="1" description="EXT 1" ID="1ae54b04-8bb1-4e74-ae1f-39087767db8c" created="09/01/2015 14:38:09" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-02-19T09:19:54,362Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="LIVE1" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="EXT1" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="external_source" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="EXT1||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="EXT 2" type="3" templatetype="2" description="EXT 2" ID="f998c462-7aa1-44fc-8032-980cc4547eaf" created="09/01/2015 14:39:57" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-02-19T09:20:07,601Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="LIVE2" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="EXT2" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="external_source" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="EXT2||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="EXT 3" type="3" templatetype="3" description="EXT 3" ID="e1d7e3d7-9d32-4470-b8bd-2884c5b58535" created="1/13/2015 5:03:55 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-02-19T09:20:22,031Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="LIVE3" mixdelay="0" xpoint_pp="" mixeffect="Program" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="EXT3" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="external_source" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="EXT3||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="EXT 4" type="3" templatetype="4" description="EXT 4" ID="4c7e013c-e6be-41d6-ab64-e6b183d3f419" created="05-06-2015 14:17:27" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2018-02-19T09:20:29,513Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="LIVE4" mixdelay="0" xpoint_pp="" mixeffect="Program" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="EXT4" level="0" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="external_source" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="EXT4||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="TEST IMAGE" type="4" templatetype="TEST IMAGE" description="TEST IMAGE" ID="0744960a-f4a0-4904-b0d8-0d7b61a889a5" created="10/18/2017 1:52:57 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="True" use_command_on_take_out="True" command_on_take_out="FULLSCREEN_GRAPHICS" command_on_take_out_value="MACRO" command_on_take_out_value_parameter="2:CONTINUE_DEMO_SCENE" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2017-10-18T12:31:22,412Z" command_on_take="FULLSCREEN_GRAPHICS" command_on_take_value="MACRO" command_on_take_value_parameter="2:TAKE_IMAGE_SCENE">
+        <takecommands>
+          <takecommand command="FULLSCREEN_GRAPHICS" value="MACRO" parameter="2:TAKE_IMAGE_SCENE" />
+        </takecommands>
+      </channel>
+      <channel name="TEST BULLET" type="4" templatetype="TEST BULLET" description="TEST BULLET" ID="68791afc-233a-4d4a-849c-1375e268468c" created="13.11.2017 12:21:49" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="True" use_command_on_take_out="True" command_on_take_out="FULLSCREEN_GRAPHICS" command_on_take_out_value="MACRO" command_on_take_out_value_parameter="2:CONTINUE_DEMO_SCENE" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" command_on_take="FULLSCREEN_GRAPHICS" command_on_take_value="MACRO" command_on_take_value_parameter="2:TAKE_BULLET_SCENE">
+        <continuepoints>
+          <continuepoint command="FULLSCREEN_GRAPHICS" value="MACRO" description="Cont. 4" parameter="2:CONTINUE_DEMO_SCENE" autotake="" />
+          <continuepoint command="FULLSCREEN_GRAPHICS" value="MACRO" description="Cont. 3" parameter="2:CONTINUE_DEMO_SCENE" autotake="" />
+          <continuepoint command="FULLSCREEN_GRAPHICS" value="MACRO" description="Cont. 2" parameter="2:CONTINUE_DEMO_SCENE" autotake="" />
+          <continuepoint command="FULLSCREEN_GRAPHICS" value="MACRO" description="Cont. 1" parameter="2:CONTINUE_DEMO_SCENE" autotake="" />
+        </continuepoints>
+        <takecommands>
+          <takecommand command="FULLSCREEN_GRAPHICS" value="MACRO" parameter="2:TAKE_BULLET_SCENE" />
+        </takecommands>
+      </channel>
+      <channel name="TEST 2BOX" type="5" templatetype="TEST 2BOX" description="TEST 2BOX" ID="1fea8440-0f76-438a-a770-0b642ed209ac" created="13.11.2017 12:23:17" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="True" use_command_on_take_out="True" command_on_take_out="FULLSCREEN_GRAPHICS" command_on_take_out_value="MACRO" command_on_take_out_value_parameter="2:CONTINUE_DEMO_SCENE" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" command_on_take="FULLSCREEN_GRAPHICS" command_on_take_value="MACRO" command_on_take_value_parameter="2:TAKE_DVE_SCENE">
+        <takecommands>
+          <takecommand command="FULLSCREEN_GRAPHICS" value="MACRO" parameter="2:TAKE_DVE_SCENE" />
+        </takecommands>
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="CG2" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+          <keyfills>
+            <keyfill name="Key " bus="0" xpoint="AUX3" audiolink="none" index="1" set_me_in_pp="False" crosspoint_hold="False" mixeffect="PP" key_set_delay="">
+              <newsroom_fields>
+                <newsroom_field device="keyfill" control_attribute="xpoint" newsroomfield="leftt" newsroomfieldvalue="AUX3" fieldtype="LIST" keylist="mixerinputs" />
+              </newsroom_fields>
+            </keyfill>
+          </keyfills>
+        </switcher_setup>
+      </channel>
+      <channel name="FULL CLIP ADLIB" type="8" templatetype="FULL CLIP ADLIB" description="FULL CLIP ADLIB" ID="3a4607a4-64e4-4dba-ba7f-b8e2051bf62d" created="05-06-2015 14:54:56" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" isstorydur="False" autotakein="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="CLIP1" level="-20" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="CLIP1||-20" initiallevel="-20" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="Copy of FULL CLIP ADLIB" type="8" templatetype="Default" description="FULL CLIP ADLIB" ID="3df2a4e9-8498-483a-bf93-5f94467e9674" created="2/22/2018 2:07:08 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" isstorydur="False" autotakein="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="S_RIP" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <server_setup>
+          <setup serverchannel="a/b" clip_mark_in="0" clip_hirespath="" clip_description="" trigger_start="false" loop="false" />
+        </server_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="CLIP1" level="-20" crossfadetime="5" crossfadetime_out="25" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="server" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="CLIP1||-20" initiallevel="-20" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="BREAK" type="9" templatetype="BREAK" description="BREAK" ID="5d5b4b5a-d94a-414c-b959-f34e08fd4112" created="5/11/2015 7:45:33 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="True" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" command_on_take="FULLSCREEN_GRAPHICS" command_on_take_value="MACRO" command_on_take_value_parameter="2:CLEAR" isstorydur="False" autotakein="false" changed="2018-07-25T15:11:51,865Z">
+      </channel>
+      <channel name="BED START" type="215" templatetype="BED START" description="BED START" ID="d34511ce-3da6-4662-bb34-691a53af27ce" created="05-06-2015 15:45:45" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false" changed="2015-06-23T08:53:16,955Z">
+        <soundfileplayer_setup>
+          <setup level="0" filename="0" output="" audio_file="CountDown">
+            <newsroom_fields>
+              <newsroom_field device="soundfileplayer_setup" control_attribute="audio_file" newsroomfield="sound file" newsroomfieldvalue="CountDown" fieldtype="TEXT" keylist="" />
+            </newsroom_fields>
+          </setup>
+        </soundfileplayer_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="AUDIO PLAYER1" level="0" crossfadetime="5" crossfadetime_out="50" main="false" keep="true" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="soundplayer" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="AUDIO PLAYER1||0" />
+            <audio_channel name="N/A" s3000_name="AUDIO PLAYER2" level="0" crossfadetime="5" crossfadetime_out="50" main="false" keep="true" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="soundplayer" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="AUDIO PLAYER2||0" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="CLIP 1" type="220" templatetype="CLIP 1" description="CLIP 1" ID="d7f58a19-9378-40db-be14-e55830f7386b" created="1/6/2018 3:26:36 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-01-06T02:27:06,894Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="CLIP1" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+      </channel>
+      <channel name="CLIP 2" type="220" templatetype="CLIP 2" description="CLIP 2" ID="4f340fea-d18d-486a-88b6-6a4508ed5060" created="1/6/2018 3:27:16 AM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2018-01-06T02:27:32,890Z">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="CLIP2" mixdelay="0" xpoint_pp="" mixeffect="" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+      </channel>
+      <channel name="FADE MICS" type="220" templatetype="FADE MICS" description="FADE MICS" ID="11d667bd-d01a-4a64-a722-6b9bd709cd37" created="10/19/2017 1:54:11 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" isstorydur="False" pretake="false" autotakein="false" changed="2017-10-19T12:32:55,151Z">
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC 1" level="-90" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC 1||-90" initiallevel="-90" />
+            <audio_channel name="N/A" s3000_name="MIC 2" level="-90" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC 2||-90" initiallevel="-90" />
+            <audio_channel name="N/A" s3000_name="MIC 3" level="-90" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC 3||-90" initiallevel="-90" />
+            <audio_channel name="N/A" s3000_name="MIC 4" level="-90" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="3" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC 4||-90" initiallevel="-90" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+    </channels>
+    <channels name="Directtakes" created="08/01/2015 14:31:14" shared="False" default="False" />
+    <channels name="CCTV" created="1/21/2019 3:23:30 PM" shared="False" default="False">
+      <channel name="CAM cam2" type="0" templatetype="1" description="CAM cam2" ID="7db20287-b4f2-49ed-a7e3-c724b172bdb9" created="1/21/2019 3:23:30 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN1" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC2" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC2||0" />
+            <audio_channel name="N/A" s3000_name="MIC1" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC1||0" />
+            <audio_channel name="N/A" s3000_name="MIC4" level="-9" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC4||-9" initiallevel="-9" />
+            <audio_channel name="N/A" s3000_name="MIC3" level="-22" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="3" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC3||-22" initiallevel="-22" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+      <channel name="CAM cam2" type="0" templatetype="1" description="CAM cam2" ID="7db20287-b4f2-49ed-a7e3-c724b172bdb9" created="1/21/2019 3:23:30 PM" autotake="false" autotake_offset="0" send_to_ncs="true" defaultvariant="False" isstatevariant="false" use_command_on_take="False" use_command_on_take_out="False" command_on_take_out="" command_on_take_out_value="" command_on_take_out_value_parameter="" preload="false" isfixeddur="false" fixeddur="0" hide_from_user="false" use_sequence="false" loop_sequence="false" sequence="" default_tc_in="" default_tc_out="" pretake="false">
+        <switcher_setup>
+          <switcherinputchannel name="SW Input" xpoint="SDI IN1" mixdelay="0" xpoint_pp="" mixeffect="PP" set_me_in_pp="False" crosspoint_hold="False" dsk_off="False" mix_delay="0" mix_delay_out="0" audiolink="none" delay_transitiononly="False" index="0" dsk_2_on="False" dsk_2_off_delay="0" dsk_3_on="False" dsk_3_off_delay="0" dsk_4_on="False" dsk_4_off_delay="0" dsk_5_on="False" dsk_5_off_delay="0" dsk_6_on="False" dsk_6_off_delay="0" dsk_7_on="False" dsk_7_off_delay="0" dsk_8_on="False" dsk_8_off_delay="0" />
+          <transitions value="MIX" rate="0" enable="True" mix_delay="0">
+            <transition name="MIX">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="WIPE">
+              <field name="transitionrate" fieldtype="NUMBER" range="0,999" value="0" />
+            </transition>
+            <transition name="EFFECT">
+              <field name="effectname" fieldtype="LIST" keylist="effects" value="1" />
+            </transition>
+          </transitions>
+        </switcher_setup>
+        <audio_setup>
+          <audio_channels>
+            <audio_channel name="N/A" s3000_name="MIC2" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="0" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC2||0" />
+            <audio_channel name="N/A" s3000_name="MIC1" level="0" crossfadetime="5" crossfadetime_out="15" main="false" keep="false" videolink="none" index="1" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="mic" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" initiallevel="0" key="MIC1||0" />
+            <audio_channel name="N/A" s3000_name="MIC4" level="-9" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="2" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC4||-9" initiallevel="-9" />
+            <audio_channel name="N/A" s3000_name="MIC3" level="-22" crossfadetime="4" crossfadetime_out="4" main="false" keep="false" videolink="none" index="3" current_level="-90" action="" faderNr="-1" fadertype="" fade_up_in_preview="false" initial_level="-90" initial_standby="false" inputdevice="" isgroupfader="false" isstandby="false" ismuted="false" loudnesslevel="" channelmode="" delay="0" skip_close_level="false" key="MIC3||-22" initiallevel="-22" />
+          </audio_channels>
+        </audio_setup>
+      </channel>
+    </channels>
+  </channeltemplates>
+</avconfig>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style/reset.css">
+		<link rel="stylesheet" href="/static/style/config.css">
+        <title>config</title>
+    </head>
+    <body>
+        <header class="clear">
+            <div class="logo-wrap">
+                <img class="logo" src="/static/images/logo.png" alt="">
+            </div>
+        </header>
+        <main class="clear">
+            <ul class="list">
+                <li class="clear">
+                    <div class="text">mosID:</div>
+                    <div><input type="text" value="" id="mosID"></div>
+                </li>
+                <li class="clear">
+                    <div class="text">mosPlugInID:</div>
+                    <div><input type="text" value="" id="mosPlugInID"></div>
+                </li>
+                <li class="clear">
+                    <div class="text">mosItemBrowserProgID:</div>
+                    <div><input type="text" value="" id="mosItemBrowserProgID"></div>
+                </li>
+                <li class="clear">
+                    <div class="text">mosItemEditorProgID:</div>
+                    <div><input type="text" value="" id="mosItemEditorProgID"></div>
+                </li>
+            </ul>
+            <div class="save-wrap">
+                <span class="save-btn ">Save</span>
+                <span style="font-size: 12px;">（请在服务关闭状态下更新配置后重启服务！）</span>
+            </div>
+        </main>
+        <footer>
+            <div class="server-status-wrap clear">
+                <div class="status-change-wrap clear">
+                    <div class="text btn">服务状态:</div>
+                    <div class="status"></div>
+                </div>
+                <div class="status-btn "><span></span></div>
+            </div>
+        </footer>
+    </body>
+    <script src="/static/js/jquery.min.js"></script>
+	<script src="/static/js/config.js"></script>
+</html>
